@@ -914,7 +914,7 @@ export class PolyModLoader {
         else {
             __classPrivateFieldSet(this, _PolyModLoader_polyModUrls, [
                 {
-                    "base": "https://cdn.polymodloader.com/polytrackmods/PolyModLoader/pmlcore",
+                    "base": "https://github.com/polytrackmods/PolyModLoader/tree/pmlcore",
                     "version": "latest",
                     "loaded": true
                 }
@@ -1329,6 +1329,7 @@ _PolyModLoader_polyVersion = new WeakMap(), _PolyModLoader_allMods = new WeakMap
             messageType: 69,
             classMixins: ActivePolyModLoader.simWorkerClassMixins || [],
             funcMixins: ActivePolyModLoader.simWorkerFuncMixins || []
+
           });`);
 };
 // @ts-ignore
